@@ -1,3 +1,4 @@
+import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import styled from '@emotion/styled';
@@ -14,10 +15,10 @@ const Button = styled.button<{color123: string}>`
   }
 `;
 
-function App() {
+function App(): JSX.Element {
   return (
     <div className="App">
-      <header className="App-header" role="header">
+      <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <Button color123="blue">ASD</Button>
         <p>
