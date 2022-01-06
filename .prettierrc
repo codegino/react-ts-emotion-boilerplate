@@ -10,9 +10,10 @@
   "proseWrap": "always",
   "quoteProps": "as-needed",
   "requirePragma": false,
-  "semi": true,
   "singleQuote": true,
   "tabWidth": 2,
   "trailingComma": "all",
-  "useTabs": false
+  "useTabs": false,
+  "importOrder": ["^react$", "^@\\w", "^\\w", "^[/.+/]"],
+  "experimentalBabelParserPluginsList": ["jsx", "typescript"]
 }
